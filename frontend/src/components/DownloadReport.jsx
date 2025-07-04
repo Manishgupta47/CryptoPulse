@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
 import { fetchHistory } from "../services/api";
-import "./style.css"; // your scoped CSS
+import "./style.css"; 
 
 function DownloadReport({ prices }) {
   const [loading, setLoading] = useState(false);
